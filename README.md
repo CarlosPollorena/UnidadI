@@ -1,1 +1,25 @@
-# UnidadI
+# proyecto-unidad-1/index.html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Virtual - FakeStore API</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Tienda Virtual</h1>
+        <p>Productos obtenidos en tiempo real desde FakeStore API</p>
+    </header>
+
+    <main>
+        <section id="contenedor-productos">
+            <!-- JS inyectará las tarjetas aquí -->
+        </section>
+    </main>
+
+    <script src="logica.js"></script>
+</body>
+</html>
